@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#029308</item>
+        <item name="colorPrimaryDark">#029308</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="gradiasi" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorControlHighlight">#A31010</item>
+        <item name="colorButtonNormal">@color/colorHitam</item>
+    </style>
+
+</resources>

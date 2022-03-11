@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <!--header-->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded"
+                android:drawableStart="@drawable/ic_cari"
+                android:drawableLeft="@drawable/ic_cari"
+                android:text="Cari Layanan, Makanan, dan Tujuan"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAbu" />
+
+        </LinearLayout>
+
+        <Button
+
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_rounded"
+            android:drawableStart="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_person" />
+
+    </androidx.appcompat.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+        <RelativeLayout
+
+            android:background="@drawable/rounded_biru"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:text=" | "
+                android:textColor="@color/colorPutih"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:text=" | "
+                android:textColor="@color/colorPutih"
+                android:textSize="20dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:text=" | "
+                android:textColor="@color/colorPutih"
+                android:textSize="20dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Bayar"
+                android:textColor="@color/colorPutih"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="188dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="7dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Isi Saldo"
+                android:textStyle="bold"
+                android:textColor="@color/colorPutih"
+                android:textSize="13dp"
+                android:layout_marginLeft="229dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="7dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Eksplor"
+                android:textStyle="bold"
+                android:textColor="@color/colorPutih"
+                android:textSize="13dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="7dp" />
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/button_rounded" >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_arsip"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:text="gopay"
+                    android:textColor="@color/colorHitam"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Rp. 109.048"
+                    android:textColor="@color/colorHitam"
+                    android:textStyle="bold"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="-70dp"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Klik dan cek riwayat"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="-77dp"
+                    android:textSize="9dp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rounded_bayar"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="187dp" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_bayar"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_panahatas"
+                    android:drawableLeft="@drawable/ic_panahatas" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rounded_bayar"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="236dp" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_bayar"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_add"
+                    android:drawableLeft="@drawable/ic_add" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/rounded_bayar"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="286dp" >
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_bayar"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_spaceroket"
+                    android:drawableLeft="@drawable/ic_spaceroket" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <!--button gopay-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp" >
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/colorPutih" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GoRide"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GoCar"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GoFood"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="235dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GoSend"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="335dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="100dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GoMart"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GoPulsa"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="CheckIn"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="235dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Lainnya"
+                android:textStyle="bold"
+                android:textColor="@color/colorAbutua"
+                android:textSize="13dp"
+                android:layout_marginLeft="335dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="8dp" />
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_button3"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button3"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_motorcycle"
+                    android:drawableLeft="@drawable/ic_motorcycle" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_button3"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="137dp" >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button3"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_carrr"
+                    android:drawableLeft="@drawable/ic_carrr" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_pink"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="236dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_pink"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:drawableStart="@drawable/ic_spoon_fork_svgrepo_com"
+                    android:drawableLeft="@drawable/ic_spoon_fork_svgrepo_com"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_button3"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="337dp" >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button3"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_paket_svgrepo_com"
+                    android:drawableLeft="@drawable/ic_paket_svgrepo_com" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_pink"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="30dp" >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_pink"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_basket_svgrepo_com"
+                    android:drawableLeft="@drawable/ic_basket_svgrepo_com" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_birumuda"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="137dp" >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_birumuda"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_smartphone_loading_svgrepo_com"
+                    android:drawableLeft="@drawable/ic_smartphone_loading_svgrepo_com" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_birumuda"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="239dp" >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_birumuda"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:drawableStart="@drawable/ic_doublebed"
+                    android:drawableLeft="@drawable/ic_doublebed" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_abuabu"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="336dp" >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_abuabu"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="5dp"
+                    android:drawableStart="@drawable/ic_grid_layout_svgrepo_com"
+                    android:drawableLeft="@drawable/ic_grid_layout_svgrepo_com" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/gradiasii"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="80dp">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/ic_star"/>
+
+            <TextView
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="5dp"
+                android:text="193 XP lagi ada Harta Karun"
+                android:textColor="@color/colorHitam"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="90dp"
+                android:progress="15" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="52dp"
+                android:background="@drawable/ic_hourglass" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="96dp"
+                android:layout_marginTop="52dp"
+                android:text=" Harta karun bentar lagi hilang"
+                android:textColor="@color/colorHitam"
+                android:textSize="13dp" />
+            <Button
+                android:layout_width="30dp"
+                android:background="@drawable/ic_kanan"
+                android:layout_height="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="20dp"
+                />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Akses Cepat"
+            android:textSize="25dp"
+            android:textColor="@color/colorHitam"
+            android:textStyle="bold"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="19dp" />
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_rounded"
+            android:layout_height="80dp" >
+
+            <RelativeLayout
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_bulathijau">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/rounded_bulathijau"
+                    android:drawableStart="@drawable/ic_percentage_percent"
+                    android:drawableLeft="@drawable/ic_percentage_percent" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorAbutua"
+                android:text=" Ada voucher nganggur, nih"
+                android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="346dp"
+
+                android:background="@drawable/ic_kanan"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_rounded"
+            android:layout_height="80dp" >
+            <RelativeLayout
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:background="@drawable/rounded_pink"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="32dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_pink"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="3dp"
+                    android:drawableStart="@drawable/ic_spoon_fork_svgrepo_com"
+                    android:drawableLeft="@drawable/ic_spoon_fork_svgrepo_com"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorAbutua"
+                android:text=" Restoran terdekat niii "
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="346dp"
+                android:background="@drawable/ic_kanan"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                  <!--slide promo-->
+                <LinearLayout
+                    android:padding=""
+                    android:background="@drawable/button_rounded"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                            android:cropToPadding="false"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/gojek1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:text="Promo spesial tahun baru gopay 50%"
+                            android:textColor="@color/colorHitam"
+                            android:layout_width="match_parent"
+                            android:textSize="3dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:background="@color/colorPutih" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="1dp"
+                android:text=" Beranda"
+                android:textColor="@color/colorHitam"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Promo"
+                android:textColor="@color/colorHitam"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Pesanan"
+                android:textColor="@color/colorHitam"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="348dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text=" Chat"
+                android:textColor="@color/colorHitam"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:backgroundTint="@color/colorPutih"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_home"
+                android:drawableLeft="@drawable/ic_home"/>
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="134dp"
+                android:backgroundTint="@color/colorPutih"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_discount_svgrepo_com"
+                android:drawableLeft="@drawable/ic_discount_svgrepo_com"/>
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="236dp"
+                android:backgroundTint="@color/colorPutih"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_interface_list_menu_ui_ux_svgrepo_com"
+                android:drawableLeft="@drawable/ic_interface_list_menu_ui_ux_svgrepo_com"/>
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="339dp"
+                android:backgroundTint="@color/colorPutih"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_chat"
+                android:drawableLeft="@drawable/ic_chat"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
