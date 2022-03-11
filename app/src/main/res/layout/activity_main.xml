@@ -634,62 +634,37 @@
                 android:layout_marginLeft="346dp"
                 android:background="@drawable/ic_kanan"/>
         </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="25dp"/>
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="250dp">
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                  <!--slide promo-->
-                <LinearLayout
-                    android:padding=""
-                    android:background="@drawable/button_rounded"
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="150dp" >
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <androidx.cardview.widget.CardView
-                            app:cardCornerRadius="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                        <ImageView
-                            android:cropToPadding="false"
-                            android:adjustViewBounds="true"
-                            android:src="@drawable/gojek1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
-                        </androidx.cardview.widget.CardView>
-                    </LinearLayout>
+                android:layout_height="250dp"
+                android:orientation="horizontal" >
 
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_marginTop="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" >
-                        <TextView
-                            android:text="Promo spesial tahun baru gopay 50%"
-                            android:textColor="@color/colorHitam"
-                            android:layout_width="match_parent"
-                            android:textSize="3dp"
-                            android:layout_height="wrap_content" />
-                    </LinearLayout>
-
-                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/g1"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"/>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/g2"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"/>
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:src="@drawable/g3"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"/>
 
             </LinearLayout>
-
         </HorizontalScrollView>
-
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="40dp" />
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="75dp"
